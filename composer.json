@@ -1,0 +1,24 @@
+{
+    "name": "spukm01-090/filtro_brian",
+    "description": "Inicializando composer en el proyecto",
+    "authors": [
+        {
+            "name": "DatBrian",
+            "email": "vikard.2005@hotmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": [
+                "./scripts/system",
+                "./scripts/db",
+                "./scripts/repositories",
+                "./scripts/common",
+                "./scripts/routes"
+            ]
+        }
+    }
+}
