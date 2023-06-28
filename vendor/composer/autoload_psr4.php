@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'App\\' => array($baseDir . '/scripts/system', $baseDir . '/scripts/db', $baseDir . '/scripts/repositories', $baseDir . '/scripts/common', $baseDir . '/scripts/routes'),
+    'App\\' => array($baseDir . '/scripts', $baseDir . '/scripts/system', $baseDir . '/scripts/db', $baseDir . '/scripts/repositories', $baseDir . '/scripts/common', $baseDir . '/scripts/routes'),
 );

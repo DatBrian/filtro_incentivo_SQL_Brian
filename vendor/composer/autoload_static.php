@@ -16,11 +16,12 @@ class ComposerStaticInite0e25625edfbc99f5d80141cdafc8c74
     public static $prefixDirsPsr4 = array (
         'App\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/scripts/system',
-            1 => __DIR__ . '/../..' . '/scripts/db',
-            2 => __DIR__ . '/../..' . '/scripts/repositories',
-            3 => __DIR__ . '/../..' . '/scripts/common',
-            4 => __DIR__ . '/../..' . '/scripts/routes',
+            0 => __DIR__ . '/../..' . '/scripts',
+            1 => __DIR__ . '/../..' . '/scripts/system',
+            2 => __DIR__ . '/../..' . '/scripts/db',
+            3 => __DIR__ . '/../..' . '/scripts/repositories',
+            4 => __DIR__ . '/../..' . '/scripts/common',
+            5 => __DIR__ . '/../..' . '/scripts/routes',
         ),
     );
 
